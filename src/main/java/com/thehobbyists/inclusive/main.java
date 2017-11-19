@@ -2,6 +2,7 @@ package com.thehobbyists.inclusive;
 
 import com.thehobbyists.inclusive.Blocks.ModBlocks;
 import com.thehobbyists.inclusive.Items.ModItems;
+import com.thehobbyists.inclusive.Tabs.MainTab;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -20,6 +21,8 @@ public class main {
     public static final String modId = "hobbyists";
     public static final String name = "Inclusive";
     public static final String version = "1.0.0";
+
+    public static final MainTab creativeTab = new MainTab();
 
     @SidedProxy(serverSide = "com.thehobbyists.inclusive.Proxies.CommonProxy", clientSide = "com.thehobbyists.inclusive.Proxies.ClientProxy")
     public static CommonProxy proxy;
