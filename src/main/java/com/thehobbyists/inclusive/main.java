@@ -2,6 +2,7 @@ package com.thehobbyists.inclusive;
 
 import com.thehobbyists.inclusive.Blocks.ModBlocks;
 import com.thehobbyists.inclusive.Items.ModItems;
+import com.thehobbyists.inclusive.Items.ModRecipes;
 import com.thehobbyists.inclusive.Tabs.MainTab;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -37,6 +38,7 @@ public class main {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        ModRecipes.init();
 
     }
 
