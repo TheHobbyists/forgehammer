@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hobbyists:ore_copper",
+      "data": 0
+    },{
+      "item": "hobbyists:ore_copper",
+      "data": 0
+    },{
+      "item": "hobbyists:ore_copper",
+      "data": 0
+    },{
+      "item": "hobbyists:ore_copper",
+      "data": 0
+    },{
+      "item": "hobbyists:ore_copper",
+      "data": 0
+    },{
+      "item": "hobbyists:ore_copper",
+      "data": 0
+    },{
+      "item": "hobbyists:ore_copper",
+      "data": 0
+    },{
+      "item": "hobbyists:ore_copper",
+      "data": 0
+    },
+    {
+      "item":"minecraft:coal",
+      "data": 0,
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "hobbyists:ingot_copper",
+    "count": 8,
+    "data":0
+  }
+}
